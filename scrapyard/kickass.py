@@ -4,7 +4,7 @@ import requests
 import scraper
 import urllib
 
-KICKASS_URL = 'http://kickass.to'
+KICKASS_URL = 'http://www.dxtorrent.com/'
 
 ################################################################################
 def movie(movie_info):

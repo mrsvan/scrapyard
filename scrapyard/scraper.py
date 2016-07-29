@@ -29,6 +29,7 @@ class Magnet:
         self.size         = size
         self.trackers     = map(urlparse.urlparse, parse_result['tr']) if 'tr' in parse_result else []
         self.info_hash    = parse_result['xt'][0].split(':')[-1].upper()
+	self.source       = 'YTS'
 
         # Handle Base32-encoded info_hash
         try:
